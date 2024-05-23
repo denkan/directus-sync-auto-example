@@ -34,3 +34,5 @@ services:
     volumes:
       - ./uploads:/directus/uploads
       - ./extensions:/directus/extensions
+      - ./directus-config:/directus/directus-config
+      - ./custom-directus-sync:/directus/custom-directus-sync
